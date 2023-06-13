@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helper-container {
+    height: 534px;
+    width: 312px;
+    background-color: rgb(61, 7, 88);
+}
+
+.container {
+    border-radius: 13em/3em;
+    margin-top: 50px;
+    height: 534px;
+    width: 312px;
+    background-color: rgb(61, 7, 88);
+}
+
+/* Parte de arriba (pantalla) */
+
+.upper-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-screen {
+    height: 270px;
+    width: 270px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.main-screen-left {
+    background-color: white;
+    height: 270px;
+    width: 50px;
+}
+
+.main-screen-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-screen-mid-gamescreen {
+    height: 170px;
+    width: 170px;
+    background-color: grey;
+}
+
+.main-screen-mid-logo-gameboy {
+    color: white;
+}
+
+.main-screen-right {
+    background-color: white;
+    height: 270px;
+    width: 50px;
+}
+
+/* Parte de abajo (botones) */
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-nintendo {
+    color: white;
+}
+
+.middle-buttons {
+    margin-top: 15px;
+    display: flex;
+}
+
+.middle-buttons-left {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.middle-buttons-mid {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.middle-buttons-right {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.bottom-buttons {
+    display: flex;
+}
+
+.bottom-buttons-left {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.bottom-buttons-mid {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.bottom-buttons-right {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
